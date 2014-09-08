@@ -8,4 +8,4 @@ EXPOSE 11211
 
 USER daemon
 
-CMD ["memcached", "-m", "64"]
+CMD ["memcached", "-m", "255"]
